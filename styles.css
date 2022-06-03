@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgba(16, 135, 254, 0.734);
+}
+
+.wrap {
+  position: relative;
+  min-height: 60vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.wrap > * {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.face {
+  position: absolute;
+}
+.controls {
+  padding: 20px;
+}
